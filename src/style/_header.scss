@@ -1,0 +1,49 @@
+header{
+
+    max-width: 100%;
+   
+    
+       height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;
+     
+  
+        .top--section{
+             background-repeat: no-repeat;
+             background-size: cover;
+             background-position: center;
+             background: url(../bg/bg-pattern.svg);
+              border-bottom-left-radius:100px;
+                 width: 100%;
+                 padding: 24px;
+                 height: 300px;
+        }
+
+    .info{
+        background: url(../bg/pattern-circles.svg);
+        background-repeat: no-repeat;
+        background-size: 150px;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+
+        h1{
+             font-size: 1.1rem;
+             color: var(--DarkDesaturatedBlue);
+        }
+        .text--small{
+            font-weight: 600;
+            text-align: center;
+            max-width: 200px;
+            color:   var(--GrayishBlue);
+        }
+    }
+}
+@import './Container'
